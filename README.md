@@ -13,9 +13,7 @@
 |:---|:---|
 | Padres de niños entre 10 a 12 años | Accede a internet por un computador o celular |
 | Siempre tiene su celular a mano | No tiene problemas navegando internet o páginas web, está acostumbrado a hacerlo |
-
-| Demo | Necesidades |
-|:---|:---|
+| **Demo** | **Necesidades** |
 | Edad entre 35 y 50 años (aproximadamente) | Explorar la colección de libros para sus hijos |
 | Género indefinido | Entender el proyecto que le interesa a sus hijos |
 | Trabaja los días de semana | Sitio web que se adapta a los dispositivos |
@@ -27,9 +25,7 @@
 | Niños entre 10 y 12 años | Accede a internet por un celular o iPad |
 | No siempre tiene acceso constante a dispositivos | Está aprendiendo a navegar internet y páginas web |
 |  | El acceso a la página puede ser "colectivo" (varios utilizando la página web) |
-
-| Demo | Necesidades |
-|:---|:---|
+| **Demo** | **Necesidades** |
 | Edad entre 10 y 12 años | Explorar la colección de libros que le interesa |
 | Género indefinido | Ver las tarjetas que vienen con los libros |
 | Va al colegio todos los días de semana | Convencer a sus papás que es una buena idea comprarlos |
@@ -43,9 +39,7 @@
 | Familiares de niños entre 10 y 12 años | Accede a internet por un computador o celular |
 | Puede ser desde tíos a abuelos | Potencialmente tiene problemas navegando internet y le cuesta hacerlo |
 |  | Puede requerir atención en temas de accesibilidad, contraste y tamaños |
-
-| Demo | Necesidades |
-|:---|:---|
+| **Demo** | **Necesidades** |
 | Edad entre 25 y muchos años | Buscar un regalo para el niño |
 | Género indefinido | Encontrar dónde poder comprar la colección |
 
