@@ -1,5 +1,4 @@
 # Proyecto final - érase
-----
 
 **¿Para qué es esta propuesta?** → *objetivo general* →  
 
