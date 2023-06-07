@@ -1,12 +1,24 @@
 # Proyecto final - érase
 
-**¿Para qué es esta propuesta?** → *objetivo general* →  
+**¿Para qué es esta propuesta?** → *objetivo general* →  Prototipar una parte del medio digital de mi proyecto de título, *érase*, con el fin de poder testearlo con usuarios secundarios para la propuesta. 
+
+*Objetivo general del proyecto de título:* Mediante la creación de un producto editorial que combine medios análogos y digitales, fomentar el interés por la lectura en niños entre 10 y 12 años.
 
 ----
 
 **¿Para quiénes es esta propuesta?** → *usuarios*:
-- usuarios promedio:
-- usuarios extremos:
+- usuarios promedio: Padres de niños entre 10 a 12 años.
+
+| Protopersona | Comportamientos |
+|:----|:----|
+|   |   |
+|:----|:----|
+| Demo | Necesidades |
+|:----|:----|
+|   |   |
+
+- usuarios extremos: Niños entre 10 y 12 años. Familiares de niños entre 10 y 12 años que están buscando un potencial regalo. 
+
 
 ----
 
