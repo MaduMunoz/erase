@@ -12,9 +12,7 @@
 | Protopersona | Comportamientos |
 |:----|:----|
 |   |   |
-|:----|:----|
 | Demo | Necesidades |
-|:----|:----|
 |   |   |
 
 - usuarios extremos: Niños entre 10 y 12 años. Familiares de niños entre 10 y 12 años que están buscando un potencial regalo. 
