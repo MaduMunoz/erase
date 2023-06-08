@@ -90,5 +90,7 @@
 
 ----
 
-**¿Qué existe que es similar a la propuesta?** → *referentes*: Moodboard
+**¿Qué existe que es similar a la propuesta?** → *referentes*:
+
+![moodboard realizado por Magdalena Muñoz](https://github.com/MaduMunoz/erase/assets/75258779/3e1c459a-f7a8-4ef3-8c89-abb63760ab24)
 
