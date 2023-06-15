@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>érase - Proyecto de Título</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/erase-icon.svg" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+        <!--estilo CSS al que se puede complementar o contradecir-->
+        <style>
+            :root {
+                /*hacer un cambio en la "raiz"*/
+                --bs-body-font-family: "Alegreya Sans", sans-serif;
+            }
+            nav {
+                backdrop-filter: blur(0.5rem);
+            }
+            section {
+                scroll-margin-top: 50px; /*Le da espacio al menu cuando salta de sección, porque si no una parte quedaría tapada por el menu (los primeros 50px)*/
+            }
+            .fondo-arriba {
+                height: 100vh;
+                min-height: 500px;
+                background-image: url("img/bg-proyecto.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .page-section {
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+            }
+            @media (min-width: 992px) {
+                .about-heading .about-heading-img {
+                    position: relative;
+                    z-index: 0;
+                }
+                .about-heading .about-heading-content {
+                    margin-top: -5rem;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+            .section-heading {
+                text-transform: uppercase;
+            }
+            .section-heading .section-heading-upper {
+                display: block;
+                font-size: 1rem;
+                font-weight: 800;
+            }
+            .section-heading .section-heading-lower {
+                display: block;
+                font-size: 3rem;
+                font-weight: 100;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg shadow fixed-top">
+            <div class="container">
+                <div class="col-md-3 mb-2 mb-md-0">
+                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                        <svg class="bi" width="40" height="32" role="img" aria-label="erase"><use xlink:href="#logo-erase" /></svg>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proyecto.index">Sobre el proyecto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participa.index">Participa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tarjetas.index">Tarjetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalogo.index">Catálogo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Foto y descripción-->
+        <!-- Imagen central -->
+        <header class="fondo-arriba">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-left">
+                        <h1 class="fw-medium" style="color: white;">Sobre el proyecto</h1>
+                        <p class="lead" style="color: white;">Colección de libros érase</p>
+                        <svg class="bi" width="24" height="24" fill="#fff"><use href="#abajo" /></svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section about-heading">
+            <div class="container">
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Proyecto de título</span>
+                                    <span class="section-heading-lower">Diseño UC</span>
+                                </h2>
+                                <div class="col-lg-12 col-md-14">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error
+                                        voluptates eius enim consequuntur!
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam
+                                        perspiciatis officiis dolore, architecto id.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio!
+                                        Explicabo quaerat unde voluptatem! Itaque, eum!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="img-fluid rounded mb-3 mb-lg-0 align-items-center" src="img/foto-proyecto.png" alt="..." />
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24" fill="#008067"><use href="#icono-erase" /></svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-body-secondary"> érase, Proyecto de Título 2023 - Escuela de Diseño UC</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#">
+                            <svg class="bi" width="24" height="24" fill="#008067"><use href="#twitter" /></svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#">
+                            <svg class="bi" width="24" height="24" fill="#008067"><use href="#instagram" /></svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#">
+                            <svg class="bi" width="24" height="24" fill="#008067"><use href="#facebook" /></svg>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+
+        <!-- SVG de la página-->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="icono-erase" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 20">
+                >
+                <path class="cls-1" d="m8.35,9.33c-.53,0-.96.18-1.29.54s-.53.89-.6,1.6h0l2.79-.16c.16-.01.27-.05.32-.11.05-.06.07-.18.07-.36,0-.49-.11-.86-.32-1.12-.22-.26-.54-.39-.96-.39Z" />
+                <path
+                    class="cls-1"
+                    d="m14.05,0H1.95C.87,0,0,.88,0,1.97v16.05c0,1.09.87,1.97,1.95,1.97h12.1c1.08,0,1.95-.88,1.95-1.97V1.97c0-1.09-.87-1.97-1.95-1.97Zm-6.11,4.62c.39-.43.75-.81,1.07-1.16s.67-.74,1.05-1.16h.27l1.14,1.38-.02.27c-.75.52-1.4.99-1.97,1.41-.57.42-1.17.88-1.79,1.37h0l-.3-.08-.63-.76c.4-.41.8-.83,1.2-1.26Zm4.12,7.23c-.04.22-.07.39-.09.51l-.25.25h-5.27c.03.95.25,1.69.66,2.21s1,.82,1.74.88c.75.06,1.62-.15,2.63-.62l.14.08.33,1.01c-.27.21-.61.43-1.02.67s-.83.44-1.26.61c-.43.17-.83.25-1.18.25h0c-.95,0-1.77-.19-2.45-.58s-1.22-.94-1.59-1.65c-.37-.71-.56-1.55-.56-2.51,0-.75.12-1.45.37-2.08s.59-1.18,1.02-1.66.94-.84,1.53-1.11,1.21-.4,1.89-.4c2.28,0,3.42,1.17,3.42,3.5,0,.21-.01.42-.05.64Z"
+                />
+            </symbol>
+            <symbol id="facebook" viewBox="0 0 16 16">
+                <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
+            </symbol>
+            <symbol id="instagram" viewBox="0 0 16 16">
+                <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                />
+            </symbol>
+            <symbol id="twitter" viewBox="0 0 16 16">
+                <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+            </symbol>
+            <symbol id="logo-erase" viewBox="0 0 16 15">
+                <path
+                    d="m2.31,7.81c-.47,0-.87-.1-1.22-.3-.35-.2-.61-.48-.81-.83-.19-.36-.29-.78-.29-1.26,0-.37.06-.72.19-1.05.13-.32.3-.61.52-.86.22-.25.48-.44.77-.58.29-.14.6-.21.93-.21,1.12,0,1.67.55,1.67,1.65,0,.1,0,.2-.03.31-.02.11-.03.19-.05.25l-.13.12H1.05c0,.57.11,1.01.34,1.34.23.33.55.51.96.55s.9-.06,1.46-.32l.06.03.15.4c-.15.11-.32.22-.52.33s-.41.22-.61.3c-.21.08-.4.12-.57.12Zm-1.24-3.23l1.71-.08c.09-.01.15-.04.19-.07s.05-.1.05-.2c0-.28-.07-.48-.2-.63-.13-.14-.33-.21-.58-.21-.3,0-.56.1-.77.31-.21.21-.34.5-.39.87Zm.78-2.42l-.12-.03-.27-.29c.2-.21.39-.43.59-.64.19-.22.37-.41.54-.59.16-.18.34-.38.53-.61l.12.02.49.55v.13c-.37.27-.69.51-.98.74-.29.22-.58.46-.9.73Z"
+                />
+                <path
+                    d="m5.04,7.21c.21-.02.35-.09.42-.2.07-.11.11-.32.11-.62v-2.23c0-.24-.03-.41-.1-.5-.06-.1-.17-.14-.33-.14-.05,0-.12.01-.21.03l-.05-.07.04-.42c.26-.05.52-.1.77-.15.25-.05.55-.11.89-.19l.08.07c-.04.22-.06.41-.07.57-.01.16-.02.32-.02.48l.04.03c.23-.33.48-.59.75-.79.27-.2.52-.3.75-.3.11,0,.23.01.35.04l.03.06c-.03.21-.05.39-.08.56-.02.17-.05.36-.06.56-.02.2-.03.39-.05.58l-.53.03c0-.31-.02-.52-.05-.61-.04-.1-.12-.15-.24-.15-.13,0-.28.05-.43.16-.15.11-.3.25-.43.45-.01.25-.02.48-.03.67,0,.19-.02.39-.03.6-.01.21-.02.39-.03.54,0,.16-.01.25-.01.3,0,.21.03.36.1.44.07.08.19.12.37.12.09,0,.26-.01.5-.03l.02.05-.11.57c-.16,0-.31-.01-.43-.02-.13,0-.26,0-.4-.01-.14,0-.26,0-.38,0-.21,0-.41,0-.59.01-.18,0-.39.02-.61.03l.06-.52Z"
+                />
+                <path
+                    d="m12.68,7.81c-.3,0-.53-.07-.7-.21s-.27-.35-.3-.63l-.06-.02c-.16.16-.31.3-.46.42-.15.12-.29.22-.41.29-.12.07-.22.11-.3.11-.27,0-.51-.06-.72-.19-.21-.12-.38-.29-.5-.5-.12-.21-.18-.45-.18-.72,0-.21.05-.4.16-.56.11-.16.25-.26.42-.31l2.02-.52v-.37c.01-.32-.07-.58-.23-.77-.16-.19-.39-.28-.68-.28-.2,0-.41.05-.63.14-.22.1-.43.22-.63.38l-.06-.04-.16-.53c.2-.11.42-.23.66-.35.24-.12.47-.22.68-.3.22-.08.38-.12.49-.12.35,0,.65.06.89.17.24.12.42.28.54.49.12.21.18.45.18.74,0,.09-.01.24-.03.43-.02.2-.05.42-.07.66-.03.24-.05.47-.07.69-.02.22-.03.4-.03.54,0,.15.04.26.11.34.07.08.17.12.3.12.11,0,.21-.03.32-.08.11-.05.19-.1.25-.15l.16.2c-.06.11-.15.22-.25.36-.1.13-.22.25-.34.36-.12.11-.25.18-.38.22Zm-1.95-.89c.12,0,.26-.04.42-.12.16-.08.31-.18.45-.3l.04-1.04-1.3.37c-.18.06-.28.19-.28.4,0,.19.06.35.19.49.12.13.28.2.48.2Z"
+                />
+                <path
+                    d="m1.47,14.76c-.26,0-.49-.02-.69-.06-.2-.04-.41-.11-.63-.19l-.04-.08c.01-.09.03-.22.05-.4.02-.17.04-.36.05-.55.02-.19.03-.35.03-.47l.47-.05c0,.42.09.72.24.9.16.18.41.28.75.28.23,0,.43-.05.59-.16.16-.11.24-.24.24-.39,0-.11-.03-.2-.1-.3-.06-.09-.18-.19-.34-.3-.17-.11-.4-.24-.72-.39-.41-.2-.71-.42-.9-.64-.19-.22-.28-.46-.28-.73,0-.3.09-.57.27-.81.18-.23.42-.42.74-.55.31-.13.67-.2,1.05-.2.32,0,.69.06,1.12.18l.03.07c-.05.25-.09.48-.12.68-.03.2-.06.41-.08.65l-.49.04c.01-.13.02-.21.02-.25,0-.25-.07-.44-.2-.56-.13-.12-.33-.17-.61-.17-.22,0-.4.05-.55.15-.15.1-.22.23-.22.38s.07.3.2.43c.13.13.34.27.64.43.4.19.7.37.92.52.22.16.37.32.46.47.09.16.13.33.13.52,0,.28-.09.54-.28.78-.18.24-.43.42-.74.56-.31.14-.65.21-1.03.21Z"
+                />
+                <path
+                    d="m6.6,14.76c-.47,0-.87-.1-1.22-.3-.35-.2-.61-.48-.81-.83-.19-.36-.29-.78-.29-1.26,0-.37.06-.72.19-1.05.13-.32.3-.61.52-.86.22-.25.48-.44.77-.58.29-.14.6-.21.93-.21,1.12,0,1.67.55,1.67,1.65,0,.1,0,.2-.03.31-.02.11-.03.19-.05.25l-.13.12h-2.84c0,.57.11,1.01.34,1.34.23.33.55.51.96.55s.9-.06,1.46-.32l.06.03.15.4c-.15.11-.32.22-.52.33-.2.12-.41.22-.61.3-.21.08-.4.12-.57.12Zm-1.24-3.23l1.71-.08c.09-.01.15-.04.19-.07.03-.03.05-.1.05-.2,0-.28-.07-.48-.2-.63-.13-.14-.33-.21-.58-.21-.3,0-.56.1-.77.31-.21.21-.34.5-.39.87Z"
+                />
+                <path d="m10.28,14.75c-.23,0-.4-.07-.51-.2-.11-.13-.17-.29-.17-.48,0-.22.07-.4.21-.54.14-.14.32-.21.54-.21s.4.07.51.2c.12.13.17.3.17.49s-.07.38-.2.52c-.13.14-.32.22-.55.22Z" />
+                <path d="m12.73,14.75c-.23,0-.4-.07-.51-.2-.11-.13-.17-.29-.17-.48,0-.22.07-.4.21-.54.14-.14.32-.21.54-.21s.4.07.51.2c.12.13.17.3.17.49s-.07.38-.2.52c-.13.14-.32.22-.55.22Z" />
+                <path d="m15.18,14.75c-.23,0-.4-.07-.51-.2-.11-.13-.17-.29-.17-.48,0-.22.07-.4.21-.54.14-.14.32-.21.54-.21s.4.07.51.2c.12.13.17.3.17.49s-.07.38-.2.52c-.13.14-.32.22-.55.22Z" />
+            </symbol>
+            <symbol id="abajo" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+            </symbol>
+        </svg>
+
+        <!-- Aquí iría un fetch de un json con los títulos-->
+
+        <!-- Biblioteca de Bootstrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body>
+</html>
