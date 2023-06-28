@@ -3,8 +3,28 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        
+        <!-- Primary Meta Tags -->
+        <title>érase - Proyecto de Título | Magdalena Muñoz</title>
+        <meta name="title" content="érase - Proyecto de Título | Magdalena Muñoz" />
+        <meta name="description" content="Colección de libros multimediales para niños entre 10 a 12 años.  " />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://proyecto-erase.cl/" />
+        <meta property="og:title" content="érase - Proyecto de Título | Magdalena Muñoz" />
+        <meta property="og:description" content="Colección de libros multimediales para niños entre 10 a 12 años.  " />
+        <meta property="og:image" content="https://raw.githubusercontent.com/MaduMunoz/erase/main/img/img-metadatos.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="http://proyecto-erase.cl/" />
+        <meta property="twitter:title" content="érase - Proyecto de Título | Magdalena Muñoz" />
+        <meta property="twitter:description" content="Colección de libros multimediales para niños entre 10 a 12 años.  " />
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/MaduMunoz/erase/main/img/img-metadatos.png" />
+
+        <!-- Meta Tags Generated with https://metatags.io -->
+
         <title>érase - Proyecto de Título</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="img/erase-icon.svg" />
@@ -97,14 +117,14 @@
         </header>
 
         <!-- Image Showcases - Esto se resolvería con un JS, no he hecho el JSON aún-->
-        <section class="showcase">
+        <!--<section class="showcase">
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/foto-1.png');"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Título #1</h2>
                         <p class="lead mb-0" style="font-size: 1.3rem;">Esto es una descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a>
+                        <a href="single.html?nro=" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a>
                     </div>
                 </div>
                 <div class="row g-0">
@@ -112,7 +132,7 @@
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2>Título #2</h2>
                         <p class="lead mb-0" style="font-size: 1.3rem;">Esto es una descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a>
+                        <a href="single.html?nro=" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a>
                     </div>
                 </div>
                 <div class="row g-0">
@@ -120,15 +140,15 @@
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Título #3</h2>
                         <p class="lead mb-0" style="font-size: 1.3rem;">Esto es una descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <a href="#" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a>
+                        <a href="single.html?nro=" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!--<section class="showcase">
-            <div class="container-fluid p-0" id="titulos"></div>
         </section>-->
+
+        <section class="showcase">
+            <div class="container-fluid p-0" id="titulos"></div>
+        </section>
 
         <!-- Imagen de abajo -->
         <header class="fondo-abajo">
@@ -234,46 +254,46 @@
             const datos = [
                 //const es para decirle al navegador que los datos no son variables. el navegador no gasta espacio para que los datos cambien.
                 {
-                    picsum: "https://picsum.photos/900/600?random=1",
-                    title: "Fully Responsive Design",
-                    text: "When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!",
+                    picsum: "img/foto-1.png",
+                    title: "Título #1",
+                    text: "Esto es una descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 },
                 {
-                    picsum: "https://picsum.photos/900/600?random=2",
-                    title: "Updated For Bootstrap 5",
-                    text: "Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!",
+                    picsum: "img/foto-1.png",
+                    title: "Título #2",
+                    text: "Esto es una descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 },
                 {
-                    picsum: "https://picsum.photos/900/600?random=3",
-                    title: "Easy to Use & Customize",
-                    text: "Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!",
+                    picsum: "img/foto-1.png",
+                    title: "Título #3",
+                    text: "Esto es una descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 },
             ];
 
             datos.forEach((d, i) => {
-                if (i < 3) {
+                //if (i < 3) {
                     if (i % 2 == 0) {
                         // par
                         document.getElementById("titulos").innerHTML +=
-                            '<div class="row g-0"> <div class="col-md-6 order-md-2 text-white showcase-img" style="background-image: url(' +
+                            '<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(' +
                             d.picsum +
-                            ');"></div><div class="col-md-6 order-md-1 my-auto showcase-text"><h2>' +
+                            ');"></div><div class="col-lg-6 order-lg-1 my-auto showcase-text"><h2>' +
                             d.title +
-                            '</h2><p class="lead mb-0">"' +
+                            '</h2><p class="lead mb-0" style="font-size: 1.3rem;">' +
                             d.text +
-                            "</p></div></div>";
+                            '</p><a href="single.html?nro=" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a></div>';
                     } else {
                         // impar
                         document.querySelector("#titulos").innerHTML +=
-                            '<div class="row g-0"><div class="col-md-6 text-white showcase-img" style="background-image: url(' +
+                            '<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(' +
                             d.picsum +
-                            ');"></div><div class="col-md-6 my-auto showcase-text"><h2>' +
+                            ');"></div><div class="col-lg-6 order-lg-1 my-auto showcase-text"><h2>' +
                             d.title +
-                            '</h2><p class="lead mb-0">' +
+                            '</h2><p class="lead mb-0" style="font-size: 1.3rem;">' +
                             d.text +
-                            "</p></div></div>";
+                            '</p><a href="single.html?nro=" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Más información</a></div>';
                     }
-                }
+                
             });
         </script>
 
