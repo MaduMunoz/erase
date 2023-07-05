@@ -1,44 +1,19 @@
 [
     {
-        "nombre": "Título #1",
+        "nombre": "Ágata y Ocre, el bosque encantado",
         "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
-        "autor": "Personita #1",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "autor": "Clara",
+        "abstract": "La princesa Ágata es traviesa y le gusta explorar, y volando con Ocre se encontrarán con un gran desafío al entrar al bosque encantado.",
     },
     {
-        "nombre": "Título #2",
+        "nombre": "Días de oro, el océano maldito",
         "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
-        "autor": "Personita #2",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "autor": "Anahí",
+        "abstract": "El océano maldito es extraño y misterioso, pero cuenta la leyenda que quien se atreva a nadar hacia sus profundidades, en oro se convertirá.",
     },
     {
-        "nombre": "Título #3",
+        "nombre": "Un pacto entre unicornio y phoenix",
         "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
-        "autor": "Personita #3",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    },
-    {
-        "nombre": "Título #4",
-        "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
-        "autor": "Personita #4",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    },
-    {
-        "nombre": "Título #5",
-        "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
-        "autor": "Personita #5",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    },
-    {
-        "nombre": "Título #6",
-        "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
-        "autor": "Personita #6",
-        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "autor": "Alicia",
+        "abstract": "Iris,un unicornio atrapado, hace un acuerdo con Luz, un phoenix que ha perdido su huevo, ¿podrán lograr lo que se proponen y ayudarse mutuamente?",
     }
-]
