@@ -11,7 +11,7 @@
 
 | Protopersona | Comportamientos |
 |:---|:---|
-| Padres de niños entre 10 a 12 años | Accede a internet por un computador o celular |
+| Padres de niños de 11 años | Accede a internet por un computador o celular |
 | Siempre tiene su celular a mano | No tiene problemas navegando internet o páginas web, está acostumbrado a hacerlo |
 | **Demo** | **Necesidades** |
 | Edad entre 35 y 50 años (aproximadamente) | Explorar la colección de libros para sus hijos |
@@ -22,7 +22,7 @@
 
 | Protopersona | Comportamientos |
 |:---|:---|
-| Niños entre 10 y 12 años | Accede a internet por un celular o iPad |
+| Niños de 11 años | Accede a internet por un celular o iPad |
 | No siempre tiene acceso constante a dispositivos | Está aprendiendo a navegar internet y páginas web |
 |  | El acceso a la página puede ser "colectivo" (varios utilizando la página web) |
 | **Demo** | **Necesidades** |
@@ -36,7 +36,7 @@
 
 | Protopersona | Comportamientos |
 |:---|:---|
-| Familiares de niños entre 10 y 12 años | Accede a internet por un computador o celular |
+| Familiares de niños de 11 años | Accede a internet por un computador o celular |
 | Puede ser desde tíos a abuelos | Potencialmente tiene problemas navegando internet y le cuesta hacerlo |
 |  | Puede requerir atención en temas de accesibilidad, contraste y tamaños |
 | **Demo** | **Necesidades** |
