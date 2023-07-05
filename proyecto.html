@@ -58,17 +58,6 @@
                 margin-top: 5rem;
                 margin-bottom: 5rem;
             }
-            @media (min-width: 992px) {
-                .about-heading .about-heading-img {
-                    position: relative;
-                    z-index: 0;
-                }
-                .about-heading .about-heading-content {
-                    margin-top: -5rem;
-                    position: relative;
-                    z-index: 1;
-                }
-            }
             .section-heading {
                 text-transform: uppercase;
             }
@@ -81,6 +70,14 @@
                 display: block;
                 font-size: 3rem;
                 font-weight: 100;
+            }
+            .fondo-abajo {
+                height: 100vh;
+                min-height: 500px;
+                background-image: url("img/bg-abajo.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
             }
         </style>
     </head>
@@ -132,35 +129,42 @@
             </div>
         </header>
 
-        <section class="page-section about-heading">
+        <section class="page-section">
             <div class="container">
-                <div class="about-heading-content">
                     <div class="row">
                             <div class="bg-faded rounded py-5">
                                 <h2 class="section-heading mb-4">
-                                    <span class="section-heading-upper">Proyecto de título</span>
-                                    <span style="font-size: 3rem;">Diseño UC</span>
+                                    <span class="section-heading-upper">Diseño UC</span>
+                                    <span style="font-size: 3rem;">Proyecto de título</span>
                                 </h2>
                                 <div class="col-xl-9 col-lg-10 col-md-14">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error
-                                        voluptates eius enim consequuntur!
+                                        <em>érase </em> es un proyecto que nace a partir del deseo de fomentar el gusto e interés por la lectura en niños y niñas de 10 a 12 años. Con su formato multimedial y contenido creado en conjunto con niños, busca que la lectura sea una actividad más interactiva e interesante. 
                                     </p>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam
-                                        perspiciatis officiis dolore, architecto id.
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio!
-                                        Explicabo quaerat unde voluptatem! Itaque, eum!
+                                        Vivimos en una sociedad en la que el mundo análogo y lo digital están cada vez más integrados, por lo que parece innevitable que los niños exploren el enorme universo que supone internet. <em>érase </em> busca guiar esta experiencia digital con interacciones y formas de leer y descubrir información, ligándolo con la experiencia de lectura tradicional que ofrecen las ediciones análogas de libros. 
                                     </p>
                                 </div>
                             </div>
                         </div>
-                </div>
-                <img class="img-fluid rounded mb-3 mb-lg-0 align-items-center col-xl-9 col-lg-10 mx-auto" src="img/foto-proyecto.png" alt="..." />
+                <img class="img-fluid rounded col-xl-9 col-lg-10 mx-auto" src="img/foto-proyecto.png" alt="Co-creación" />
             </div>
         </section>
+
+        <!-- Imagen de abajo -->
+        <header class="fondo-abajo">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="fw-regular" style="color: white;">
+                            Si quieres descubrir más sobre la colección de <em>érase</em>, <br />
+                            ¡revisa nuestro catálogo!
+                        </h1>
+                        <a href="catalogo.html" class="btn btn-success rounded-pill px-3 text-uppercase" style="margin: 20px 0px;">Catálogo</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <!-- Footer -->
         <div class="container">
