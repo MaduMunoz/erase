@@ -1,13 +1,13 @@
 [
     {
         "nombre": "Ágata y Ocre, el bosque encantado",
-        "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
+        "fotos": ["img/libros/libro1_1.png", "img/libros/libro1_1.png", "img/libros/libro1_1.png"],
         "autor": "Clara",
         "abstract": "La princesa Ágata es traviesa y le gusta explorar, y volando con Ocre se encontrarán con un gran desafío al entrar al bosque encantado."
     },
     {
         "nombre": "Días de oro, el océano maldito",
-        "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
+        "fotos": ["img/libros/libro2_1.png", "img/libros/libro2_1.png", "img/libros/libro2_1.png"],
         "autor": "Anahí",
         "abstract": "El océano maldito es extraño y misterioso, pero cuenta la leyenda que quien se atreva a nadar hacia sus profundidades, en oro se convertirá."
     },
