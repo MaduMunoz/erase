@@ -3,17 +3,18 @@
         "nombre": "Ágata y Ocre, el bosque encantado",
         "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
         "autor": "Clara",
-        "abstract": "La princesa Ágata es traviesa y le gusta explorar, y volando con Ocre se encontrarán con un gran desafío al entrar al bosque encantado.",
+        "abstract": "La princesa Ágata es traviesa y le gusta explorar, y volando con Ocre se encontrarán con un gran desafío al entrar al bosque encantado."
     },
     {
         "nombre": "Días de oro, el océano maldito",
         "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
         "autor": "Anahí",
-        "abstract": "El océano maldito es extraño y misterioso, pero cuenta la leyenda que quien se atreva a nadar hacia sus profundidades, en oro se convertirá.",
+        "abstract": "El océano maldito es extraño y misterioso, pero cuenta la leyenda que quien se atreva a nadar hacia sus profundidades, en oro se convertirá."
     },
     {
         "nombre": "Un pacto entre unicornio y phoenix",
         "fotos": ["img/foto-1.png", "img/foto-1.png", "img/foto-1.png"],
         "autor": "Alicia",
-        "abstract": "Iris,un unicornio atrapado, hace un acuerdo con Luz, un phoenix que ha perdido su huevo, ¿podrán lograr lo que se proponen y ayudarse mutuamente?",
+        "abstract": "Iris,un unicornio atrapado, hace un acuerdo con Luz, un phoenix que ha perdido su huevo, ¿podrán lograr lo que se proponen y ayudarse mutuamente?"
     }
+]
